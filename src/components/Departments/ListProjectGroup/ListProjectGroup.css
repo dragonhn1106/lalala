@@ -1,0 +1,67 @@
+.ListProjectGroup__header {
+  padding: 22px 21px 22px 35px;
+  background-color: #fff;
+  height: 65px;
+  width: calc((100% - 80px) * 3 / 12);
+  position: fixed;
+  top: 55px;
+  border-right: 1px solid #c7c7c7;
+}
+
+.ListProjectGroup .mainleft__header2 {
+  margin-top: 65px;
+  padding: 10px 88px;
+}
+
+.add-departmenet {
+  padding: 9px;
+  color: #3636d6;
+  background-color: transparent;
+  margin: 5px 10px;
+  width: calc(100% - 20px);
+}
+.submit-modal {
+  color: #05a205;
+  border: none;
+  background-color: transparent;
+}
+
+.department-icon svg {
+  fill: transparent;
+}
+
+.department-icon:hover svg {
+  fill: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .ListProjectGroup__header {
+    width: 100%;
+  }
+}
+
+.input-modal {
+  border-top: 0 !important;
+  border-right: 0 !important;
+  border-left: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+}
+
+.input-modal:focus {
+  box-shadow: none !important;
+}
+
+.items-ic {
+  width: 25%;
+  text-align: center;
+}
+
+.items-ic img {
+  width: 90%;
+  margin: auto;
+}
+.icon-block {
+  border-bottom: 1px solid #f3e8e8;
+  padding-bottom: 20px;
+}

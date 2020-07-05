@@ -1,0 +1,29 @@
+.TableUserDepartment__avatar {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+
+.TableUserDepartment tr:focus {
+  outline: none!important;
+}
+
+.TableUserDepartment_dragbtn {
+  position: relative;
+}
+
+.TableUserDepartment__dragIcon {
+  position: absolute;
+  display: none;
+  top: 15px;
+  left: calc(50% - 15px);
+  width: 30px;
+}
+
+.TableUserDepartment_dragbtn:hover img {
+  display: none;
+}
+
+.TableUserDepartment_dragbtn:hover .TableUserDepartment__dragIcon {
+  display: block;
+}

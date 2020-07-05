@@ -1,0 +1,49 @@
+.MainRight {
+  /* border-bottom: 1px solid #c7c7c7; */
+  background-color: #fff;
+  padding-top: 65px;
+}
+
+.MainRight__action {
+  height: 65px;
+  position: fixed;
+  width: calc((100% - 80px) * 9 / 12 + 1px);
+  background-color: #fff;
+  top: 0;
+  top: 55px;
+  z-index: 999;
+}
+
+.MainRight .MainRight__action ul {
+  height: 65px;
+  margin-right: 15px;
+}
+.MainRight .MainRight__action ul li {
+  padding: 0 8px;
+}
+
+.MainRight .MainRight__action li.nav-item > div > a {
+  text-decoration: none;
+  font-size: 11px;
+  text-align: center;
+  color: #3a3939;
+}
+.MainRight .MainRight__action li.nav-item > a {
+  text-decoration: none;
+  font-size: 11px;
+  text-align: center;
+  color: #3a3939;
+}
+
+.MainRight .MainRight__action li .fa {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .MainRight__action {
+    width: 100%;
+  }
+  .MainRight .MainRight__action ul {
+    height: 80px;
+  }
+}

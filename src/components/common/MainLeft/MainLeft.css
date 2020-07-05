@@ -1,0 +1,30 @@
+.MainLeft {
+  background-color: #fff;
+  min-height: calc(100vh - 120px);
+  border-right: 1px solid #c7c7c7;
+}
+
+.MainLeft__header {
+  padding: 22px 21px 22px 35px;
+  background-color: #fff;
+  height: 65px;
+  width: calc((100% - 80px) * 3 / 12 - 1px);
+  position: fixed;
+  top: 55px;
+  border-right: 1px solid #eeeeee;
+}
+
+.MainLeft .mainleft__header2 {
+  margin-top: 65px;
+  padding: 10px 88px;
+}
+
+@media only screen and (max-width: 600px) {
+  .MainLeft {
+    height: auto;
+    border-bottom: 1px solid #ccc;
+  }
+  .MainLeft__header {
+    width: 100%;
+  }
+}

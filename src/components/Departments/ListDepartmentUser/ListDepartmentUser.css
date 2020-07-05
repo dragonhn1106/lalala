@@ -1,0 +1,51 @@
+.ListDepartmentUser__header {
+  padding: 22px 21px 22px 10px;
+  background-color: #fff;
+  height: 65px;
+  width: calc((100% - 80px) * 3 / 12);
+  position: fixed;
+  top: 55px;
+  border-right: 1px solid #c7c7c7;
+  z-index: 100;
+}
+
+.ListDepartmentUser .search {
+  margin-top: 65px;
+  padding: 3px 14px;
+}
+
+.ListDepartmentUser .search input {
+  border-radius: 20px;
+  padding-left: 30px;
+  position: relative;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 9px;
+}
+
+.ListDepartmentUser li:focus {
+  outline: none;
+}
+
+.modalAddIcon a.ic-item {
+  width: 20%;
+  display: inline-block;
+  border: 1px solid #42dcb9;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.modalAddIcon a.ic-item img {
+  width: 100%;
+}
+.modalAddIcon .ic-wrapper {
+  border-bottom: 1px solid #ece4e4;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.modalAddIcon .input-ic {
+  display: none;
+}

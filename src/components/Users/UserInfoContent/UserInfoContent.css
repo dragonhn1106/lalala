@@ -1,0 +1,39 @@
+.UserInfoContent {
+  margin-top: -65px;
+}
+.UserInfoContent__header__name {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.UserInfoContent__row {
+  padding: 15px 0px;
+  border-bottom: 1px solid #dedede94;
+}
+
+.UserInfoContent-left {
+  min-height: calc(100vh - 55px);
+  padding: 30px !important;
+}
+
+.UserInfoContent .user-profile {
+  padding: 10px 20px;
+  background-color: #ececec;
+}
+.UserInfo_right_header {
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+}
+
+.UserInfo_right_centent__group .title {
+  color: #ccc;
+  font-weight: 600;
+}
+.UserInfo_right_centent__group .group_label {
+  font-weight: 600;
+  color: #4c4646;
+}
+
+.UserInfo_right_centent__group {
+  margin: 10px 0;
+}

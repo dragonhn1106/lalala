@@ -1,0 +1,18 @@
+.UserInfo {
+  min-height: calc(100vh - 55px);
+}
+
+.UserInfo .search {
+    margin-top: 15px;
+    padding: 3px 14px;
+}
+
+.UserInfo .search input {
+    border-radius: 20px;
+    padding-left: 30px;
+    position: relative;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 9px;
+}

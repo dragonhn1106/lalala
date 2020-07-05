@@ -1,0 +1,7 @@
+.HomeJobItem .progress-circle {
+    width: 50px;
+    text-align: right;
+}
+.HomeJobItem {
+    padding: 15px 0;
+}

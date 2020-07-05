@@ -1,0 +1,13 @@
+.Department {
+    padding: 8px 5px;
+    color: #212121;
+}
+
+.Department .dep-ic {
+    margin-left: 25px;
+}
+
+.Department:hover {
+    background-color: #ebebeb63;
+    text-decoration: none;
+}

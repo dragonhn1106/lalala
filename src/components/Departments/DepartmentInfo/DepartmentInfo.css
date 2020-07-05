@@ -1,0 +1,60 @@
+.DepartmentInfo {
+  min-height: calc(100vh - 55px);
+  position: relative;
+}
+
+.DepartmentInfo__header {
+  height: 65px;
+  border-bottom: 1px solid #c7c7c7;
+  padding: 10px;
+}
+
+.DepartmentInfo__header a {
+  font-size: 15px;
+  color: #000;
+}
+
+.DepartmentInfo__header:hover a {
+  text-decoration: none;
+  color: #000;
+}
+
+.DepartmentInfo__image h5 {
+  font-weight: 600;
+  color: green;
+  text-transform: uppercase;
+  margin-top: 8px;
+}
+
+.DepartmentInfo .description {
+  padding: 0 15px;
+  margin-top: 30px;
+}
+
+.DepartmentInfo .description h5 {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: 600;
+}
+
+.DepartmentInfo .bottom-action {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.DepartmentInfo .bottom-action li {
+  padding: 5px 15px;
+}
+
+.DepartmentInfo .bottom-action li:last-child {
+  border-top: 1px solid #c7c7c7;
+}
+
+.DepartmentInfo .bottom-action li:last-child a {
+  color: #f12b2b;
+}
+.DepartmentInfo .bottom-action li a {
+  color: #000;
+  text-decoration: none;
+}

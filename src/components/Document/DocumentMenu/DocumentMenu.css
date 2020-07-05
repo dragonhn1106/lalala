@@ -1,0 +1,32 @@
+.DocumentMenu .Document__header {
+  padding: 22px 21px 22px 35px;
+  background-color: #fff;
+  height: 65px;
+  width: calc((100% - 80px) * 3 / 12 - 1px);
+  position: fixed;
+  top: 55px;
+  border-right: 1px solid #eeeeee;
+}
+
+.DocumentMenu .list-doc {
+  margin-top: -20px;
+}
+
+.Document__header h1 {
+  font-size: 18px;
+}
+
+.Document__header2 {
+  height: 40px;
+  margin-top: 65px;
+  position: relative;
+}
+
+.Document__header2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: #ece5e5;
+  width: 100%;
+  height: 1px;
+}

@@ -1,0 +1,30 @@
+.HomeNewsItems .icon-left {
+  width: 60px;
+}
+.HomeNewsItems .HomeNewsItemsRight {
+  width: calc(100% - 60px);
+}
+
+.HomeNewsItems {
+  padding: 20px 20px;
+}
+.HomeNewsItems .comment-wrapper {
+  position: relative;
+}
+.HomeNewsItems .comment-count {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 100%;
+  color: #fff;
+  color: 000;
+  font-size: 8px;
+  text-align: center;
+  font-weight: 700;
+  right: -3px;
+}
+.HomeNewsItemsRight {
+  border-bottom: 1px solid #e6dede;
+  padding-bottom: 15px;
+}

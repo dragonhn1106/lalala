@@ -1,0 +1,64 @@
+.RowUser .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.RowUser .text-orange {
+  color: #ff9933;
+}
+
+.RowUser .text-blue {
+  color: #0066ff;
+}
+
+.RowUser .status-label {
+  padding: 5px 5px;
+  border-radius: 5px;
+  border-width: 1;
+}
+
+.RowUser .status-label--red {
+  color: #fff;
+  background-color: red;
+}
+.RowUser .status-label--green {
+  color: #fff;
+  background-color: green;
+}
+
+.avatar-hover span {
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  width: 30px;
+  left: calc(50% - 10px);
+}
+
+.avatar-hover:hover img {
+  visibility: hidden;
+}
+
+.avatar-hover {
+  width: 55px;
+  position: relative;
+}
+
+.avatar-hover:hover span {
+  visibility: visible;
+}
+
+.RowUser td {
+  vertical-align: middle!important;
+}
+
+.RowUser:last-child {
+  border-bottom: 1px solid #e2e2e2!important;
+}
+
+.RowUser .dropdown-item {
+  padding: 10px 10px;
+}
+
+.RowUser .dropdown-item:not(:last-child){
+  border-bottom: 1px solid #f3e7e7;
+}

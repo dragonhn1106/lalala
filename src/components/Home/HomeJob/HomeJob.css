@@ -1,0 +1,55 @@
+.HomeJob {
+  width: 30%;
+  border-right: 1px solid #ccc;
+  padding: 20px;
+}
+
+.HomeJobMenuItem {
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+}
+.HomeJobMenuItem:hover {
+  text-decoration: none;
+}
+.HomeJobMenuItem_icon {
+  display: block;
+  width: 40px;
+  height: 40px;
+
+  border-radius: 100%;
+}
+
+.greenbg {
+  background: rgb(6, 249, 167);
+}
+.orangebg {
+  background: orange;
+}
+.redbg {
+  background: red;
+}
+.greybg {
+  background: #a5a0a0;
+}
+
+.HomeJob__group__title {
+  color: #a09f9f;
+  font-weight: 500;
+  position: relative;
+}
+.HomeJob__group__title::after {
+  position: absolute;
+  width: 72%;
+  height: 1px;
+  content: "";
+  background-color: #e2dddd;
+  bottom: 8px;
+  right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .HomeJob {
+    width: 100%;
+  }
+}

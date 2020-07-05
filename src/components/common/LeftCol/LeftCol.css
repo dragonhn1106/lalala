@@ -1,0 +1,53 @@
+.LeftCol{
+    height: 100vh;
+    position: fixed;
+    width: 80px;
+    background: linear-gradient(45deg,#33505e 0%,#4CAF50 100%);
+}
+
+.LeftCol .LeftColItem{
+    flex-direction: column;
+    width: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex: 1;
+}
+
+.LeftCol .left-icon {
+    height: calc(100% - 100px);
+}
+
+.LeftCol .LeftColItem .Items{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.LeftCol .LeftColItem .Items:hover {
+    background-color: #0000001f;
+}
+.LeftCol .LeftColItem .Items.active {
+    background-color: #0000001f;
+}
+.LeftCol .LeftColItem .Items:hover a{
+    text-decoration: none;
+}
+
+.LeftCol .LeftNavLink{
+    /* flex: 1; */
+    flex: 1;
+    display: block;
+    color: #fff;
+}
+
+.LeftCol .HomePage .Item{
+    color: #fff;
+}
+
+.LeftCol .Project{
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.LeftCol .Project .Item{
+    color:  #fff;
+}

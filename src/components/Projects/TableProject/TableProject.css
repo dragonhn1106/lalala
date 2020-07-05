@@ -1,0 +1,60 @@
+.RowProject__avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.TableProject table {
+  width: 100%;
+}
+
+.RowProject td:first-child {
+  width: 90px;
+}
+.RowProject td.progress-col {
+  width: 150px;
+}
+
+.tong-so-nguoi-tham-gia img {
+  width: 20px;
+  border-radius: 100%;
+}
+
+.tong-so-nguoi-tham-gia .user-n:not(:first-child) img {
+  box-shadow: -4px -1px #f8f9fa;
+}
+
+.tong-so-nguoi-tham-gia .user-n {
+  width: 20px;
+  height: 20px;
+  margin-left: -2px;
+}
+.tong-so-nguoi-tham-gia .add-user-plus {
+  width: 20px;
+  height: 20px;
+  margin-left: 3px;
+  display: inline-block;
+  border: 1px solid #b3aeae;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.tong-so-nguoi-tham-gia .user-count {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #8fb8e4;
+  text-align: center;
+  box-shadow: -4px 0px #f8f9fa;
+}
+
+.TableProject th:first-child {
+  width: 70px;
+}
+.TableProject td:first-child {
+  width: 70px;
+}
+
+.TableProject tr:focus {
+  outline: none!important;
+}

@@ -1,0 +1,4 @@
+.HomePage {
+    min-height: calc(100vh - 55px);
+    background-color: #fff;
+}

@@ -1,0 +1,11 @@
+.RemindItem {
+    padding: 15px 20px 0 20px;
+}
+
+.RemindItem--border {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.RemindItem-dropdown {
+    width: 30px;
+}

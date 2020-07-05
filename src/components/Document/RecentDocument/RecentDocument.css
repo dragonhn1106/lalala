@@ -1,0 +1,5 @@
+.RecentDocument table th {
+    background: rgb(237, 237, 237);
+    color: rgb(102, 102, 102);
+    border-bottom: 2px solid rgb(221, 221, 221);
+}

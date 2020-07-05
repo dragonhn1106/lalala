@@ -1,0 +1,20 @@
+
+.ProgressBar .progress-line {
+    width: 80%;
+    height: 15px;
+    margin: auto;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 5px!important;
+}
+
+.ProgressBar .progress-line::after {
+    position: absolute;
+    content: '';
+    width: var(--progressbar-percent);
+    height: 100%;
+    background-color: #3edcdb;
+    border-radius: 10px;
+    left: 0;
+}
